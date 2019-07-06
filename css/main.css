@@ -1,0 +1,1114 @@
+body {
+  width: 100%;
+  margin: 0px auto;
+}
+
+.row:after {
+  clear: both;
+  display: block;
+  content: "";
+}
+
+header {
+  width: 100%;
+  margin: 0px auto;
+  padding-bottom: 10px;
+  background-color: #000;
+}
+
+header .row .col-md-3 {
+  margin-left: 28px;
+  float: left;
+}
+
+header figure {
+  float: left;
+  margin-top: 10px;
+}
+
+header h2 {
+  float: left;
+  margin-left: 8px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.container-fluid .row .menu nav {
+  float: right;
+  margin-right: -344px;
+  /* background-color: red; */
+  margin-top: -38px;
+}
+
+.container-fluid .row .menu nav ul {
+  float: left;
+}
+
+.container-fluid .row .menu nav ul li {
+  float: left;
+  list-style: none;
+  margin-right: 20px;
+}
+
+.container-fluid .row .menu nav ul .active a {
+  color: blueviolet;
+  float: left;
+}
+
+.container-fluid .row .menu nav ul li a {
+  float: left;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.container-fluid .row .menu nav ul li a:hover {
+  color: blueviolet;
+}
+
+.container-fluid .row .menu nav ul .menu_options {
+  position: relative;
+}
+
+.container-fluid .row .menu nav ul .menu_options a .caret {
+  margin-left: 10px;
+}
+
+.container-fluid .row .menu nav ul .menu_options a:hover {
+  color: blueviolet;
+}
+
+.container-fluid .row .menu nav ul .sub_menu {
+  clear: both;
+  padding-top: 11px;
+  padding-bottom: 134px;
+  display: none;
+  width: 148px;
+  position: absolute;
+  top: 20px;
+  bottom: 0;
+  left: 2px;
+  right: 0;
+  background: #fff;
+  border: solid 1px #000;
+  z-index: 1;
+}
+
+.container-fluid .row .menu nav ul .sub_menu li {
+  list-style: none;
+  clear: both;
+  display: block;
+  overflow: hidden;
+  margin-left: -37px;
+}
+
+.container-fluid .row .menu nav ul .sub_menu li a {
+  text-decoration: none;
+  clear: both;
+  text-align: center;
+  width: 140px;
+  color: #000;
+  line-height: 30px;
+  overflow: hidden;
+  font-size: 18px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.container-fluid .row .menu nav ul .sub_menu li a:hover {
+  color: blueviolet;
+}
+
+.container-fluid .row .menu nav ul .menu_options li a:hover {
+  color: blueviolet;
+}
+
+.container-fluid .row .menu nav ul .menu_options:hover .sub_menu {
+  display: block;
+}
+
+.section_one {
+  width: 100%;
+  float: left;
+  padding-bottom: 120px;
+  background-color: violet;
+}
+
+.team-sec {
+  float: left;
+  width: 100%;
+}
+
+.team .photo {
+  width: 250px;
+  height: 250px;
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+}
+
+.photo-shadow {
+  position: absolute;
+  z-index: -1;
+  top: 12px;
+  left: 16px;
+  bottom: -10px;
+  border: 1px solid #E3E3E3;
+  height: 250px;
+  width: 246px;
+  background: #fff;
+}
+
+.col-item {
+  position: relative;
+}
+
+.team {
+  margin-top: 60px;
+}
+
+.team .photo img {
+  width: 100%;
+  vertical-align: middle;
+  position: relative;
+}
+
+.social-connect {
+  margin-top: 13px;
+}
+
+.info {
+  margin-top: 22px;
+}
+
+.info .name {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+
+.info .degination {
+  font-size: 16px;
+  font-weight: 300;
+  font-style: italic;
+  color: #8B8B8B;
+}
+
+.social-connect a {
+  display: inline-block;
+  border: 1px solid #E3E3E3;
+  font-size: 14px;
+  color: #919191;
+  width: 24px;
+  height: 24px;
+  text-align: center;
+  line-height: 24px;
+  margin-right: 4px;
+}
+
+.social-connect a .fa {
+  margin: 0;
+}
+
+.social-connect a:hover {
+  background-color: #4EBEE9;
+  color: #fff;
+}
+
+.carousel-line {
+  border: 1px solid #ddd;
+  height: 320px;
+  position: absolute;
+  bottom: -90px;
+  width: 110%;
+  left: -5.5%;
+}
+
+.carousel-line > .controls {
+  position: absolute;
+  bottom: -16px;
+  left: 50%;
+  margin-left: -50px;
+  background: #fff;
+  padding: 0px 20px;
+  color: #000;
+}
+
+.carousel-line > .controls > a {
+  color: #868686;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.section_two {
+  width: 100%;
+  float: left;
+  margin: 0px auto 0px auto;
+  background-color: #000;
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
+
+.section_two .row .col-md-4 {
+  background-color: #000;
+}
+
+.section_two .row .col-md-4 figure {
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.section_two .row .col-md-4 h4 {
+  margin-left: 9px;
+  margin-top: 15px;
+  color: #fff;
+}
+
+.section_two .row .col-md-4 h4:hover {
+  color: blueviolet;
+}
+
+.section_two .row .col-md-4 p {
+  margin-left: 9px;
+  margin-top: 15px;
+  width: 360px;
+  color: #fff;
+  line-height: 25px;
+}
+
+#about {
+  float: left;
+  width: 100%;
+  padding-top: 30px;
+  background-color: aliceblue;
+}
+
+#about .container {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  padding-bottom: 50px;
+}
+
+#about .container h1 {
+  color: #000;
+  margin-bottom: 20px;
+}
+
+#about .container .row .col-md-12 p {
+  font-size: 16px;
+  font-weight: normal;
+  color: #000;
+  margin-bottom: 40px;
+}
+
+#about .container .total {
+  margin: 0px auto;
+}
+
+#about .container .row .col-md-4 {
+  float: left;
+  width: 350px;
+  margin-right: 30px;
+  border-radius: 4px;
+  box-shadow: 3px 10px 10px #000;
+  background-color: #fff;
+  padding-bottom: 20px;
+}
+
+#about .container .row .col-md-4 img {
+  float: left;
+  margin-left: -15px;
+  margin-bottom: 18px;
+}
+
+#about .container .row .col-md-4 h5 {
+  font-weight: bold;
+  color: #000;
+  font-size: 18px;
+}
+
+#about .container .row .col-md-4 h5:hover {
+  color: blueviolet;
+  cursor: pointer;
+}
+
+#about .container .row .col-md-4 p {
+  width: 320px;
+  margin: 0px auto;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  text-align: justify;
+}
+
+#services {
+  width: 100%;
+  float: left;
+  background-color: #fff;
+  padding-bottom: 30px;
+}
+
+#services .container {
+  clear: both;
+  display: block;
+  overflow: hidden;
+}
+
+#services .container .text-center {
+  margin-top: 40px;
+}
+
+#services .container .row {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  margin-top: 50px;
+}
+
+#services .container .row .col-md-4 img {
+  float: left;
+}
+
+#services .container .row .col-md-4 .headr {
+  float: left;
+  margin-top: -3px;
+  margin-left: 14px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#services .container .row .col-md-4 .headr:hover {
+  color: blueviolet;
+  cursor: pointer;
+}
+
+#services .container .row .col-md-4 .contentz {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  margin-left: 54px;
+  font-size: 12px;
+}
+
+.action {
+  float: left;
+  width: 100%;
+  background-color: aqua;
+  padding-bottom: 50px;
+}
+
+.action .container-fluid {
+  width: 100%;
+  float: left;
+}
+
+.action .container-fluid .action_title {
+  width: 100%;
+  clear: both;
+  display: block;
+  overflow: hidden;
+  color: #fff;
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.action .container-fluid .action_title .action_matter {
+  width: 90%;
+  clear: both;
+  display: block;
+  overflow: hidden;
+  margin: 0px auto;
+  font-size: 16px;
+  color: #fff;
+  margin-top: 30px;
+  font-weight: normal;
+}
+
+.action .container-fluid .buttonaction {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  margin: 0px auto;
+  width: 17%;
+}
+
+.action .container-fluid .buttonaction a input {
+  -webkit-appearance: button;
+  cursor: pointer;
+  border: solid 3px #fff;
+  border-radius: 20px;
+  outline: none;
+  background-color: aqua;
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 30px;
+  font-size: 18px;
+  color: #fff;
+}
+
+#skills {
+  float: left;
+  width: 100%;
+  background-color: #fff;
+  padding-bottom: 50px;
+}
+
+#skills .container {
+  width: 100%;
+  float: left;
+}
+
+#skills .container .col-md-12 .skill_title {
+  color: #000;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  clear: both;
+  overflow: hidden;
+  display: block;
+  font-size: 33px;
+}
+
+#skills .container .col-md-12 .skill_content {
+  width: 97%;
+  clear: both;
+  overflow: hidden;
+  display: block;
+  font-size: 16px;
+  margin: 0px auto;
+  color: #000;
+  margin-bottom: 50px;
+}
+
+#skills .container .col-md-12 .progress {
+  height: 40px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  background-color: #fff;
+  border-radius: 4px;
+}
+
+#skills .container .col-md-12 .progress .progress-bar .html {
+  float: left;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+#skills .container .col-md-12 .progress .progress-bar .html span {
+  float: right;
+  margin-left: 1200px;
+}
+
+#skills .container .col-md-12 .progress .progress-bar .css {
+  float: left;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+#skills .container .col-md-12 .progress .progress-bar .css span {
+  float: right;
+  margin-left: 1090px;
+}
+
+#skills .container .col-md-12 .progress .progress-bar .javascriptr {
+  float: left;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+#skills .container .col-md-12 .progress .progress-bar .javascriptr span {
+  float: right;
+  margin-left: 850px;
+}
+
+#skills .container .col-md-12 .progress .progress-bar .photoshops {
+  float: left;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+#skills .container .col-md-12 .progress .progress-bar .photoshops span {
+  float: right;
+  margin-left: 580px;
+}
+
+.facts {
+  width: 100%;
+  float: left;
+  background-color: #dbd8d8;
+}
+
+.facts .container {
+  width: 100%;
+  float: left;
+}
+
+.facts .container .fact_title {
+  font-size: 33px;
+  color: #000;
+  margin-top: 30px;
+}
+
+.facts .container .factsed {
+  color: #000;
+  margin-top: 10px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.facts .container .factsmatter {
+  width: 1000px;
+  margin: 0px auto;
+}
+
+.facts .container .factsmatter .col-md-3 p {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  font-size: 50px;
+  font-weight: bold;
+  color: cyan;
+}
+
+.facts .container .factsmatter .col-md-3 p span {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  font-size: 16px;
+  font-weight: normal;
+  color: #000;
+}
+
+.facts .container .webimage {
+  margin: 0px auto;
+  clear: both;
+  display: block;
+  overflow: hidden;
+  margin-top: 30px;
+}
+
+.facts .container .webimage .col-md-12 {
+  margin: 0px auto;
+  clear: both;
+  display: block;
+  overflow: hidden;
+}
+
+.facts .container .webimage .col-md-12 img {
+  margin: 0px auto;
+  clear: both;
+  display: block;
+  overflow: hidden;
+}
+
+.portfolios {
+  width: 100%;
+  float: left;
+  background-color: brown;
+}
+
+.portfolios .container {
+  width: 100%;
+  float: left;
+}
+
+.portfolios .container .port_title {
+  font-size: 33px;
+  color: #000;
+  margin-top: 30px;
+}
+
+.clients {
+  width: 100%;
+  float: left;
+  background-color: cadetblue;
+  padding-bottom: 50px;
+}
+
+.clients .container {
+  width: 100%;
+  float: left;
+}
+
+.clients .container .mysliders {
+  margin-top: 30px;
+}
+
+.clients .container .carousel-control.right {
+  background-image: none;
+  margin-top: 132px;
+}
+
+.clients .container .carousel-control.left {
+  background-image: none;
+  margin-top: 130px;
+}
+
+#team {
+  width: 100%;
+  float: left;
+  padding-bottom: 50px;
+  margin-top: 0px;
+  background-color: tomato;
+}
+
+#team .container-fluid {
+  width: 100%;
+  float: left;
+}
+
+#team .container-fluid .team_title {
+  font-size: 33px;
+  color: #000;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: -115px;
+}
+
+#team .container-fluid .team_content {
+  font-size: 16px;
+  color: #000;
+  font-weight: normal;
+  margin-left: -115px;
+  margin-bottom: 30px;
+}
+
+#team .container-fluid .row {
+  margin-left: 80px;
+  margin-right: 0px;
+}
+
+#team .container-fluid .row .col-md-3 {
+  margin-right: -27px;
+  width: 25%;
+}
+
+#team .container {
+  position: relative;
+  width: 70%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: 0.5s ease;
+}
+
+.container:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  white-space: nowrap;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.text span {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  margin: 0px auto;
+  width: 65%;
+}
+
+#contactus {
+  width: 100%;
+  float: left;
+  padding-bottom: 50px;
+  background-color: #f7f7f7;
+}
+
+#contactus .container {
+  width: 100%;
+  float: left;
+}
+
+#contactus .container .contact_title {
+  font-size: 33px;
+  font-weight: normal;
+  color: #000;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+#contactus .container .contact_content {
+  font-size: 16px;
+  color: #000;
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+
+#contactus .container .valuesm img {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  margin: 30px auto 0px auto;
+}
+
+#contactus .container .valuesm .emailt {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  margin: 42px auto 0px auto;
+}
+
+#contactus .container .valuesm .contactvalues {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  font-weight: bold;
+  color: darkslategrey;
+  margin-top: 15px;
+  font-size: 18px;
+}
+
+#contactus .container .valuesm .contactvalues span {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  color: #000;
+  font-weight: normal;
+  margin-top: 15px;
+  font-size: 16px;
+}
+
+#contactus .container .valuesm .contactvalues span a {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  text-decoration: none;
+  color: #000;
+  font-weight: normal;
+}
+
+#contactus .container .valuesm .contactvalues span a:hover {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  color: darkorange;
+  font-weight: normal;
+}
+
+#contactus .container .formv {
+  width: 1200px;
+  margin: 30px auto 0px auto;
+}
+
+#contactus .container .formv .col-md-12 {
+  clear: both;
+  display: block;
+  overflow: hidden;
+}
+
+#contactus .container .formv .col-md-12 .formb {
+  clear: both;
+  display: block;
+  overflow: hidden;
+}
+
+#contactus .container .formv .col-md-12 .formb input {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  width: 1000px;
+  margin: 0px auto;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-bottom: 18px;
+  padding-left: 10px;
+  border: none;
+  outline: none;
+}
+
+#contactus .container .formv .col-md-12 .formb textarea {
+  width: 1000px;
+  margin: 0px auto;
+  clear: both;
+  display: block;
+  overflow: hidden;
+  outline: none;
+  border: none;
+  padding-bottom: 50px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+#contactus .container .formv .col-md-12 .formb .messagesent {
+  width: 200px;
+  clear: both;
+  display: block;
+  overflow: hidden;
+  background-color: aquamarine;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  margin-top: 30px;
+}
+
+#contactus .container .formv .col-md-12 .formb .messagesent:hover {
+  background-color: aqua;
+}
+
+.footer {
+  width: 100%;
+  float: left;
+  padding-bottom: 50px;
+  background-color: darkslategrey;
+}
+
+.footer .container {
+  width: 91%;
+  float: left;
+  margin-left: 52px;
+  margin-top: 30px;
+}
+
+.footer .container img {
+  float: left;
+  margin-top: 25px;
+  margin-left: 14px;
+}
+
+.footer .container .uday_title {
+  float: left;
+  margin-top: -44px;
+  margin-left: 28px;
+  font-size: 33px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.footer .container .uday_title span {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  font-weight: normal;
+  font-size: 16px;
+  margin-top: 22px;
+  margin-left: -14px;
+  text-align: left;
+}
+
+.footer .container .useful p {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  font-weight: bold;
+  font-size: 18px;
+  color: red;
+  margin-left: 23px;
+  margin-top: 21px;
+}
+
+.footer .container .useful ul {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  margin-left: -15px;
+  margin-top: 20px;
+}
+
+.footer .container .useful ul li {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  list-style: none;
+}
+
+.footer .container .useful ul li a {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  list-style: none;
+  text-decoration: none;
+  color: #fff;
+  font-weight: normal;
+  font-size: 14px;
+  color: #fff;
+  padding-bottom: 10px;
+}
+
+.footer .container .uscon {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  font-weight: bold;
+  font-size: 18px;
+  color: red;
+  margin-left: 23px;
+  margin-top: 21px;
+}
+
+.footer .container .uscon span {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  color: #fff;
+  font-size: 16px;
+  margin-top: 20px;
+  font-weight: normal;
+}
+
+.footer .container .letter {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  font-weight: bold;
+  font-size: 18px;
+  color: red;
+  margin-left: 23px;
+  margin-top: 21px;
+}
+
+.footer .container .letter span {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  font-size: 16px;
+  margin-top: 20px;
+  color: #fff;
+  font-weight: normal;
+}
+
+.footer .container .subcr {
+  float: left;
+}
+
+.footer .container .subcr input {
+  float: left;
+  width: 140px;
+  height: 34px;
+  margin-left: 16px;
+  margin-top: 18px;
+  border: none;
+  outline: none;
+}
+
+.footer .container .subcr .subs {
+  float: left;
+  margin-left: -10px;
+  outline: none;
+  border: none;
+  width: 95px;
+  line-height: 34px;
+  height: 34px;
+  text-align: center;
+  background-color: aqua;
+  color: #fff;
+}
+
+.sub_footer {
+  width: 100%;
+  float: left;
+  background-color: #000;
+}
+
+.sub_footer .container {
+  width: 100%;
+  float: left;
+}
+
+.sub_footer .container p {
+  color: #fff;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.sub_footer .container p span {
+  color: aquamarine;
+  clear: both;
+  display: block;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+.companysection {
+  width: 100%;
+  float: left;
+  margin-bottom: 50px;
+}
+
+.companysection .container {
+  width: 100%;
+  float: left;
+}
+
+.companysection .container .company_title {
+  font-weight: bold;
+  color: #000;
+  font-size: 33px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.companysection .container .company_logos {
+  margin: 0px auto;
+  width: 1000px;
+  clear: both;
+  display: block;
+  overflow: hidden;
+}
+
+.companysection .container .project_details {
+  float: left;
+  font-size: 30px;
+  font-weight: bold;
+  color: red;
+  margin-top: 30px;
+}
+
+.companysection .container .project_details span {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  font-size: 14px;
+  color: #000;
+  margin-top: 20px;
+  font-weight: normal;
+  text-align: justify;
+}
+
+.buttonprev {
+  margin-left: 30px;
+  clear: both;
+  display: block;
+  overflow: hidden;
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+
+.buttonprev a input {
+  border: none;
+  outline: none;
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+  padding-top: 10px;
+  padding-left: 18px;
+  padding-bottom: 10px;
+  padding-right: 18px;
+}
+
+/*# sourceMappingURL=main.css.map */

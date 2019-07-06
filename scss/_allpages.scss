@@ -1,0 +1,1233 @@
+//header
+header
+{
+    width:$widthf;
+    margin:$margin;
+    padding-bottom:10px;
+    background-color:$backcol;
+ 
+}
+
+header .row .col-md-3
+{
+    margin-left:28px;
+    float: left;
+}
+
+header figure
+{
+    float:$flo;
+    margin-top:10px;
+}
+
+header h2
+{
+    float:$flo;
+    margin-left:8px;
+    color:$colw;
+    font-weight:$fonw;
+}
+
+.container-fluid .row .menu nav {
+    float:$flor;
+    margin-right: -344px;
+    /* background-color: red; */
+    margin-top: -38px;
+}
+
+
+
+ .container-fluid .row .menu nav ul
+{
+    float:$flo;
+}
+
+.container-fluid .row .menu nav ul li
+{   
+    float:$flo;
+    list-style:$non;
+    margin-right:20px;
+}
+
+.container-fluid .row .menu nav ul .active a
+{
+    color:$act;
+    float:left;
+}
+
+ .container-fluid .row .menu nav ul li a
+{
+    float:$flo;
+    text-decoration:$non;
+    color:$colw;
+    font-weight:$fonw; 
+}
+
+.container-fluid .row .menu nav ul li a:hover{
+    color:$act;
+}
+ .container-fluid .row .menu nav ul .menu_options     
+{
+
+position:$posr;
+
+
+}
+
+.container-fluid .row .menu nav ul .menu_options a .caret     
+{
+
+margin-left:10px;
+
+
+}
+
+.container-fluid .row .menu nav ul .menu_options a:hover     
+{
+
+color:$act;
+
+
+}
+
+.container-fluid .row .menu nav ul .sub_menu {
+    clear:$clearp;
+    padding-top: 11px;
+    padding-bottom: 134px;
+    display:$non;
+    width: 148px;
+    position:$posa;
+    top: 20px;
+    bottom: 0;
+    left: 2px;
+    right: 0;
+    background:$colw;
+    border: solid 1px $backcol;
+    z-index: 1;
+}
+
+.container-fluid .row .menu nav ul .sub_menu li {
+    list-style:$non;
+    clear:$clearp;
+    display:$disp;
+    overflow:$over;
+    margin-left: -37px;
+}
+
+.container-fluid .row .menu nav ul .sub_menu li a {
+    text-decoration:$non;
+    clear:$clearp;
+    text-align:$centers;
+    width: 140px;
+    color:$backcol;
+    line-height: 30px;
+    overflow:$over;
+    font-size: 18px;
+    font-family: $fonfamily;
+}
+
+.container-fluid .row .menu nav ul .sub_menu li a:hover {
+    color:$act;
+}
+
+
+.container-fluid .row .menu nav ul .menu_options li a:hover
+{
+color:$act;
+}
+
+.container-fluid .row .menu nav ul .menu_options:hover  .sub_menu
+{
+    
+    display:$disp;
+    
+}
+
+
+//header_ends
+
+
+//section_one
+.section_one {
+    
+    width:$widthf;
+   float:$flo;
+   padding-bottom: 120px;
+    background-color: violet;
+}
+
+
+.team-sec{float: left;width: 100%;}
+.team .photo {width: 250px; height: 250px; display: inline-block; overflow: hidden; position: relative; }
+.photo-shadow {position: absolute; z-index: -1; top: 12px; left: 16px; bottom: -10px; border: 1px solid #E3E3E3; height: 250px; width: 246px; background: #fff; }
+.col-item{position: relative;}
+.team{margin-top: 60px;}
+.team .photo img{width: 100%;    vertical-align: middle;position: relative;}
+.social-connect{margin-top: 13px;}
+.info{margin-top: 22px;}
+.info .name{font-size: 18px;font-weight: 600;margin-bottom: 2px;}
+.info .degination{font-size: 16px;font-weight: 300;font-style: italic;color: #8B8B8B;}
+.social-connect a{ display: inline-block; border: 1px solid #E3E3E3; font-size: 14px; color: #919191; width: 24px; height: 24px; text-align: center; line-height: 24px;margin-right: 4px;}
+.social-connect a .fa{margin: 0;}
+.social-connect a:hover{background-color: #4EBEE9;color: #fff;} .carousel-line{    border: 1px solid #ddd; height: 320px; position: absolute; bottom: -90px; width: 110%; left: -5.5%;}
+.carousel-line > .controls{position: absolute; bottom: -16px; left: 50%; margin-left: -50px; background: #fff; padding: 0px 20px; color: #000;}
+.carousel-line > .controls > a{    color: #868686; font-size: 24px; font-weight: 300;}
+
+
+
+
+
+
+
+//section_one_ends
+
+//section_two
+.section_two
+{
+    width:$widthf;
+    float:$flo;
+    margin:0px auto 0px auto;
+    background-color:$backcol;
+    padding-bottom: 30px;
+    padding-top:20px;
+}
+
+
+
+.section_two .row .col-md-4
+{
+    background-color: $backcol;
+}
+ .section_two .row .col-md-4 figure
+ {
+    
+    margin-left:10px;
+    margin-top:20px;
+}
+
+.section_two .row .col-md-4 h4
+{
+   
+   margin-left:9px;
+   margin-top:15px;
+   color:$colw;
+   
+}
+
+.section_two .row .col-md-4 h4:hover
+{
+   
+   
+   color:$act;
+   
+}
+
+.section_two .row .col-md-4 p
+{
+   
+   margin-left:9px;
+   margin-top:15px;
+   width:360px;
+   color:$colw;
+   line-height: 25px;
+   }
+
+//section_two_ends
+
+
+#about
+{
+    float:left;
+    width:$widthf; 
+    padding-top:30px;
+    background-color:$excolw;
+    //  background:url(images/image_one.png); getting error here
+    
+}
+
+#about .container
+{
+   clear:$clearp;
+   display:$disp;
+   overflow:$over;
+   padding-bottom:50px;
+    
+}
+
+#about .container h1
+{
+// font-weight:$fonw;
+color:$backcol;
+margin-bottom:20px;
+ 
+}
+
+
+
+#about .container .row .col-md-12  p
+{
+    font-size:16px;
+    font-weight:$fonweight;
+    color:$backcol;
+    margin-bottom:40px;
+
+}
+
+
+
+
+
+#about .container .total
+{
+margin:$margin;
+} 
+
+#about .container .row .col-md-4{
+    float:$flo;
+    width:350px;
+    margin-right:30px;
+    border-radius:4px;
+    box-shadow:3px 10px 10px #000;
+    background-color:$colw;
+    padding-bottom:20px;
+}
+
+#about .container .row .col-md-4  img
+{
+    float:$flo;
+    margin-left:-15px;
+    margin-bottom: 18px;
+}
+
+#about .container .row .col-md-4 h5
+{
+    font-weight:$fonw;
+    color:$backcol;
+    // margin-top:18px;
+    font-size: 18px;
+}
+
+
+#about .container .row .col-md-4 h5:hover
+{
+    color:$act;
+    cursor: pointer;
+}
+
+#about .container .row .col-md-4 p
+{
+    width:320px;
+    margin:$margin;
+    padding-top:20px;
+    padding-bottom:50px;
+    text-align: justify;
+}
+
+#services
+{
+    width:$widthf;
+    float:$flo;
+    background-color:$colw;
+    padding-bottom:30px;
+}
+
+#services .container
+{
+    clear:$clearp;
+    display:$disp;
+    overflow:$over;
+}
+
+#services .container .text-center
+{
+    margin-top:40px;
+}
+
+ #services .container .row
+ {
+     clear:$clearp;
+     display: $disp;
+     overflow: $over;
+     margin-top:50px;
+ }
+
+ #services .container .row .col-md-4 img
+ {
+ float:$flo;
+ }
+
+#services .container .row .col-md-4 .headr
+{
+float:$flo;
+margin-top:-3px;
+margin-left:14px;
+font-size: 16px;
+font-weight:$fonw; 
+}
+
+#services .container .row .col-md-4 .headr:hover{
+    color:$act;
+    cursor: pointer;
+}
+
+#services .container .row .col-md-4 .contentz
+{
+    clear:$clearp;
+    display:$disp;
+    overflow:$over;
+    margin-left:54px;
+    font-size: 12px;
+}
+
+// call_to_action
+
+.action
+{
+    float:$flo;
+    width:$widthf;
+    background-color: aqua;
+    padding-bottom:50px;
+}
+
+.action .container-fluid
+{
+    width:$widthf;
+    float:$flo;
+}
+
+.action .container-fluid .action_title
+{
+    width:$widthf;
+    clear:$clearp;
+    display:$disp;
+    overflow:$over;
+    color:#fff;
+    font-weight: bold;
+    font-size:25px;
+    margin-top:50px;
+    margin-bottom:30px;
+}
+
+.action .container-fluid .action_title .action_matter
+{
+    width:90%;
+    clear:$clearp;
+    display:$disp;
+    overflow:$over;
+    margin:$margin;
+    font-size:16px;
+    color:#fff;
+    margin-top:30px;
+    font-weight: normal;
+    
+}
+
+.action .container-fluid .buttonaction
+{
+    clear:$clearp;
+    display: $disp;
+    overflow: $over;
+    margin:$margin;
+    width:17%;
+    
+        
+    
+}
+.action .container-fluid .buttonaction a input
+{
+    -webkit-appearance: button;
+    cursor: pointer;
+    border:solid 3px #fff;
+    border-radius: 20px;
+    outline:$non;
+    background-color: aqua;
+    padding-left:30px;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-right:30px;
+    font-size:18px;
+    color:$colw;
+    
+}
+
+#skills
+{
+    float:$flo;
+    width:$widthf;
+    background-color:$colw;
+    padding-bottom:50px;
+}
+
+#skills .container
+{
+    width:$widthf;
+    float:$flo; 
+}
+
+#skills .container .col-md-12 .skill_title
+{
+    color: #000;
+    margin-top:50px;
+    margin-bottom:30px;
+    clear:$clearp;
+    overflow: $over;
+    display: $disp;
+   
+    font-size:33px;
+}
+
+#skills .container .col-md-12 .skill_content
+{
+width:97%;
+clear:$clearp;
+overflow:$over;
+display: $disp;
+font-size:16px;
+margin:$margin;
+color:$backcol;    
+margin-bottom:50px;
+}
+
+#skills .container .col-md-12 .progress
+{
+    height: 40px;   
+    margin-bottom: 20px;
+    overflow: hidden;
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+#skills .container .col-md-12 .progress .progress-bar .html
+{
+float:$flo;
+margin-top:10px;
+margin-left:10px;
+}
+
+#skills .container .col-md-12 .progress .progress-bar .html span
+{
+float:$flor;
+margin-left:1200px;
+}
+
+#skills .container .col-md-12 .progress .progress-bar .css
+{
+float:$flo;
+margin-top:10px;
+margin-left:10px;
+}
+
+#skills .container .col-md-12 .progress .progress-bar .css span
+{
+float:$flor;
+margin-left:1090px;
+}
+
+
+#skills .container .col-md-12 .progress .progress-bar .javascriptr
+{
+float:$flo;
+margin-top:10px;
+margin-left:10px;
+}
+
+#skills .container .col-md-12 .progress .progress-bar .javascriptr span
+{
+float:$flor;
+margin-left:850px;
+}
+
+
+#skills .container .col-md-12 .progress .progress-bar .photoshops
+{
+float:$flo;
+margin-top:10px;
+margin-left:10px;
+}
+
+#skills .container .col-md-12 .progress .progress-bar .photoshops span
+{
+float:$flor;
+margin-left:580px;
+}
+
+
+.facts
+{
+    width:$widthf;
+    float:$flo;
+    background-color:$cementcol;
+}
+
+.facts .container
+{
+    width:$widthf;
+    float:$flo;
+}
+
+.facts .container .fact_title
+{
+    font-size:33px;
+    color:$backcol;
+    margin-top:30px;
+}
+
+.facts .container .factsed
+{
+   color:$backcol;
+   margin-top:10px; 
+font-size: 16px;
+margin-bottom:20px;
+}
+
+.facts .container .factsmatter
+{
+    width:1000px;
+    margin:$margin;
+    
+}
+.facts .container .factsmatter .col-md-3 p
+{
+clear:$clearp;
+display: $disp;
+overflow: $over;
+font-size:50px;
+font-weight: $fonw;
+color:$cyancol;
+}
+
+.facts .container .factsmatter .col-md-3 p span
+{
+clear:$clearp;
+display: $disp;
+overflow: $over;
+font-size:16px;
+font-weight:$fonweight;
+color:$backcol;
+}
+
+.facts .container .webimage
+{
+    margin:0px auto;
+    clear:$clearp;
+    display:$disp;
+    overflow:$over;
+    margin-top:30px;
+}
+
+.facts .container .webimage .col-md-12
+{
+    margin:0px auto;
+    clear:$clearp;
+    display:$disp;
+    overflow:$over;
+}
+
+.facts .container .webimage .col-md-12 img
+{
+    margin:0px auto;
+    clear:$clearp;
+    display:$disp;
+    overflow:$over;
+}
+
+.portfolios
+{
+    width:$widthf;
+    float:$flo;
+    background-color: brown;
+}
+
+.portfolios .container
+{
+    width:$widthf;
+    float:$flo;
+}
+
+.portfolios .container .port_title
+{
+    font-size:33px;
+    color:$backcol;
+    margin-top:30px;
+}
+
+.clients
+{
+    width:$widthf;
+    float:$flo;
+    background-color: cadetblue;
+    padding-bottom:50px;
+}
+
+.clients .container
+{
+    width:$widthf;
+    float:$flo;
+} 
+
+.clients .container .mysliders
+{
+
+margin-top: 30px;
+}
+
+.clients .container .carousel-control.right
+{
+background-image: $non;
+margin-top:132px;
+}
+
+
+.clients .container .carousel-control.left
+{
+    background-image: $non;
+    margin-top:130px;
+}
+
+//team
+#team
+{
+    width:$widthf;
+    float:$flo;
+    padding-bottom:50px;
+    margin-top:0px;
+    background-color: tomato;
+}
+
+#team .container-fluid
+{
+    width:$widthf;
+    float:$flo;
+}
+
+#team .container-fluid .team_title
+{
+
+    font-size:33px;
+    color:$backcol;
+    margin-top:30px;
+    margin-bottom:30px;
+    margin-left:-115px;
+}
+
+#team .container-fluid .team_content
+{
+    font-size:16px;
+    color:$backcol;
+    font-weight:$fonweight;
+    margin-left:-115px;
+    margin-bottom:30px; 
+}
+
+#team .container-fluid .row
+{
+    margin-left:80px;
+    margin-right:0px;
+}
+
+#team .container-fluid .row .col-md-3{
+    margin-right:-27px;
+    width:25%;
+    }
+
+#team .container {
+  position: relative;
+  width: 70%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.text span 
+{
+clear:$clearp;
+display: $disp;
+overflow: $over;
+margin:$margin;
+width:65%;
+}
+//team_ends
+
+//contactus
+
+#contactus
+{
+    width:$widthf;
+    float:$flo;
+    padding-bottom:50px; 
+    background-color:$addresscol;
+}
+
+#contactus .container
+{
+    width:$widthf;
+    float:$flo;
+}
+
+#contactus .container .contact_title
+{
+    font-size: 33px;
+    font-weight:$fonweight;
+    color:$backcol;
+    margin-top:30px;
+    margin-bottom:20px;
+}
+
+#contactus .container .contact_content
+{
+    font-size:16px;
+    color:$backcol;
+    font-weight:$fonweight;
+    margin-bottom:30px; 
+}
+
+#contactus .container .valuesm img
+{
+    clear:$clearp;
+    display: $disp;
+    overflow: $over;
+    margin:30px auto 0px auto;
+   
+}
+
+#contactus .container .valuesm .emailt
+{
+    clear:$clearp;
+    display: $disp;
+    overflow: $over;
+    margin:42px auto 0px auto;
+   
+}
+
+#contactus .container .valuesm .contactvalues
+{
+    clear:$clearp;
+    display: $disp;
+    overflow: $over;
+    font-weight: bold;
+    color:$colordark;
+    margin-top:15px;
+    font-size:18px;
+}
+
+#contactus .container .valuesm .contactvalues span
+{
+    clear:$clearp;
+    display: $disp;
+    overflow: $over;
+    color:$backcol;
+    font-weight:$fonweight;
+    margin-top:15px;
+    font-size: 16px;
+}
+
+#contactus .container .valuesm .contactvalues span a
+{
+    clear:$clearp;
+    display: $disp;
+    overflow: $over;
+    text-decoration: $non;
+    color:$backcol;
+    font-weight:$fonweight;
+}
+
+#contactus .container .valuesm .contactvalues span a:hover
+{
+    clear:$clearp;
+    display: $disp;
+    overflow: $over;
+    color:$orange;
+    font-weight:$fonweight;
+}
+
+#contactus .container .formv
+{
+    width:1200px;
+    margin:30px auto 0px auto;
+    
+}
+
+#contactus .container .formv .col-md-12 
+{
+ clear:$clearp;
+ display:$disp;
+ overflow:$over;
+}
+
+#contactus .container .formv .col-md-12 .formb
+{
+    clear:$clearp;
+    display:$disp;
+    overflow:$over;
+    
+}
+
+#contactus .container .formv .col-md-12 .formb input
+{
+    clear: $clearp;
+    display: $disp;
+    overflow: $over;
+    width: 1000px;
+    margin:$margin;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-bottom: 18px;
+    padding-left: 10px;
+    border:$non;
+    outline:$non;
+}
+
+#contactus .container .formv .col-md-12 .formb textarea
+{
+width:1000px;
+margin:$margin;
+clear:$clearp;
+display:$disp;
+overflow:$over;
+outline:$non;
+border:$non;
+    padding-bottom: 50px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+#contactus .container .formv .col-md-12 .formb .messagesent
+{
+    width:200px;
+    clear:$clearp;
+    display: $disp;
+    overflow: $over;
+    background-color:$acqu;
+    color:$colw;
+    font-size:16px;
+    border:$non;
+    outline:$non;
+    margin-top:30px;
+    
+}
+
+#contactus .container .formv .col-md-12 .formb .messagesent:hover
+{
+    background-color: $acqat;
+}
+//contactus_ends
+
+//footer
+.footer
+{
+    width:$widthf;
+    float:$flo;
+    padding-bottom:50px;
+    background-color:$colordark;
+}
+
+.footer .container
+{
+    width: 91%;
+    float:$flo;
+    margin-left: 52px;
+    margin-top:30px;
+}
+
+.footer .container img
+{
+    float:$flo;
+    margin-top:25px;
+    margin-left:14px;
+}
+
+.footer .container .uday_title
+{
+    float:$flo;
+    margin-top: -44px;
+    margin-left: 28px;
+    font-size: 33px;
+    color:$colw;
+    font-weight: $fonw;
+}
+
+.footer .container .uday_title span
+{
+   clear:$clearp;
+   display: $disp;
+   overflow:$over;
+   font-weight:$fonweight;
+   font-size:16px;
+   margin-top:22px;
+   margin-left:-14px;
+   text-align:$flo;
+}
+
+
+
+.footer .container .useful p
+{
+    clear:$clearp;
+    display:$disp;
+    overflow:$over;
+    font-weight:$fonw;
+    font-size: 18px;
+    color:$colr;
+    margin-left: 23px;
+    margin-top: 21px;
+     
+}
+
+.footer .container .useful ul
+{
+    clear:$clearp;
+    display:$disp;
+    overflow:$over;
+    margin-left:-15px;
+    margin-top:20px;
+}
+
+.footer .container .useful ul li
+{
+    clear:$clearp;
+    display:$disp;
+    overflow:$over;
+    list-style: $non;
+   
+}
+
+.footer .container .useful ul li a
+{
+    clear:$clearp;
+    display:$disp;
+    overflow:$over;
+    list-style: $non;
+    text-decoration: $non;
+    color:$colw;
+    
+    font-weight:$fonweight;
+    font-size:14px;
+    
+    color:$colw;
+    padding-bottom:10px; 
+}
+
+.footer .container .uscon{
+
+    clear:$clearp;
+    display:$disp;
+    overflow:$over;
+    font-weight:$fonw;
+    font-size: 18px;
+    color:$colr;
+    margin-left: 23px;
+    margin-top: 21px;
+    
+
+}
+
+.footer .container .uscon span{
+
+    clear:$clearp;
+    display:$disp;
+    overflow:$over;
+    color:$colw;
+    font-size:16px;
+    margin-top:20px;
+    font-weight: $fonweight;
+    
+}
+
+.footer .container .letter
+{
+    clear:$clearp;
+    display: $disp;
+    overflow:$over;
+    font-weight:$fonw;
+    font-size: 18px;
+    color:$colr;
+    margin-left: 23px;
+    margin-top: 21px;
+    
+}
+
+.footer .container .letter span
+{
+    clear:$clearp;
+    display: $disp;
+    overflow:$over;
+    font-size:16px;
+    margin-top:20px;
+    color:$colw;
+    font-weight: $fonweight;
+    
+}
+
+.footer .container  .subcr
+
+{
+float:$flo;
+}
+
+.footer .container  .subcr input
+
+{
+    float:$flo;
+    width: 140px;
+    height: 34px;
+    margin-left: 16px;
+    margin-top: 18px;
+    border:$non;
+    outline:$non;
+
+}
+
+.footer .container .subcr .subs
+{
+    float:$flo;
+    margin-left: -10px;
+    outline:$non;
+    border:$non;
+    width:95px;
+    line-height: 34px;
+    height: 34px;
+    text-align:$centers;
+    background-color: $acqat;
+    color:$colw;
+}
+//footer_ends
+
+//sub_footer
+.sub_footer
+{
+    width:$widthf;
+    float:$flo;
+    background-color:$backcol;
+}
+
+.sub_footer .container{
+    width:$widthf;
+    float:$flo;
+}
+
+.sub_footer .container p
+{
+    color:$colw;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+
+.sub_footer .container p span
+{
+    color:$acqu;
+    clear:$clearp;
+    display:$disp;
+    overflow:$over;
+    margin-top:20px;
+}
+//sub_footer_ends
+
+.companysection
+{
+    width:$widthf;
+    float:$flo;
+    margin-bottom:50px;
+}
+
+.companysection .container
+{
+    width:$widthf;
+    float:$flo;
+}
+
+.companysection .container .company_title
+{
+    font-weight: $fonw;
+    color:$backcol;
+    font-size:33px;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+
+.companysection .container .company_logos
+{
+    margin:$margin;
+    width:1000px;
+    clear:$clearp;
+    display:$disp;
+    overflow:$over;
+
+}
+
+.companysection .container .project_details
+{
+    float:$flo;
+    font-size:30px;
+    font-weight: $fonw;
+    color:$colr;
+    margin-top:30px;
+
+    
+}
+
+.companysection .container .project_details span
+{
+    clear:$clearp;
+    display:$disp;
+    overflow:$over;
+    font-size:14px;
+    color:$backcol;
+    margin-top:20px;
+    font-weight: $fonweight;
+    text-align: justify;
+}
+
+.buttonprev
+{
+    margin-left:30px;
+    clear:$clearp;
+    display:$disp;
+    overflow:$over;
+    margin-top:80px;
+    margin-bottom:50px;
+}
+
+.buttonprev a input
+{
+    border:$non;
+    outline:$non;
+    text-decoration: $non;
+    color:$backcol;
+    font-size:18px;
+    padding-top:10px;
+    padding-left:18px;
+    padding-bottom:10px;
+    padding-right:18px;
+}

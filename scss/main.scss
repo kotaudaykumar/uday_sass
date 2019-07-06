@@ -1,0 +1,14 @@
+@import 'theme';
+@import 'colors';
+@import 'fonts';
+body{
+    width:$widthf;
+    margin:$margin;
+}
+.row:after 
+{
+clear:both;
+display:block;
+content:"";
+}
+@import 'allpages';
